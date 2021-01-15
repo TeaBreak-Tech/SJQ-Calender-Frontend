@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.main {
+
+  /* display: flex; */
+  width: 100%;
+  height: 400px;
+
+
+}
+.month_view_table {
+
+    margin-left:50px;
+    width: 860px;
+    height: 100%;
+    border-right:1px solid gray;
+    padding:1em;
+    
+
+}
+.table1{
+  margin-left: 150px;
+  margin-top: 10px;
+  display: flex;
+  height: 100%;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-top: solid;
+  position: relative;
+
+  
+}
+
+.weekDayLabelCell{
+  animation-name: css-0;
+  animation-duration: 0.267s;
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-fill-mode: both;
+  background-color: rgb(155, 94, 184);
+}
+
+.topRightCornerDate {
+  border-top-right-radius: 2px;
+}
+.bottomLeftCornerDate{
+  border-bottom-left-radius: 2px;
+}
+.topLeftCornerDate {
+  border-top-left-radius: 2px;
+}
+.bottomRightCornerDate {
+  border-bottom-right-radius: 2px;
+}
+
+.dayOutsideNavigatedMonth {
+  color:rgb(94, 88, 88);
+  font-weight: 400;
+}
+
+
+.day_cell {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.week_row {
+  background-color: ghostwhite;
+}
+
+html[dir=ltr] ._1vLrNwYDjbwCu_3Ozq5hn5 {
+  border-left: 1px solid var(--neutralLight);
+}
+
+._1vLrNwYDjbwCu_3Ozq5hn5 {
+
+  
+  display: flex;
+  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+
+  flex-direction: column;
+  margin-right: 50px;
+
+  padding:1em;
+
+}
+
+._1ly3FD3IgkwRfF0Tle6YHf{
+  padding: 10px;
+}
+.searchBox {
+  background-color: rgb(231, 171, 43);
+  border: 1px solid gray;
+}
+
+div.events {
+  border-top-style:groove;
+}
+
+li:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+
+.topnav {
+  display: block;
+  position: absolute top;
+  width: 100%;
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
